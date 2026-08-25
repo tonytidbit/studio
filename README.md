@@ -10,16 +10,21 @@ experiments.
 
 ## Agent instructions
 
-These general instructions apply to every installable item in this repository.
-Also follow any additional agent instructions under the requested item's
-section when present.
+These instructions apply to every installable item in this repository. Also
+follow any item-specific instructions under the requested item's section.
 
-Before installing or updating an item, explain its purpose, behavior, type,
-source material, dependencies, permissions, tools, network access, proposed
-scope, and material risks, as applicable. Report its declared license, or report
-that none was found. When updating, compare the installed item with the
-requested source and report material differences and local modifications.
-Install or update the item, then verify the result.
+Inspect the existing state and map each requested item to an exact target and
+scope. Install or update only the resolved targets. Verify their contents and
+effective scope and, as applicable, discovery, activation, and persistence.
+
+For each item, report its type, source, license status, expected behavior, and
+material impact, including consequential dependencies, permissions, tools, or
+network access. Also report material differences and local modifications
+compared with any existing installation.
+
+Do not proceed without user confirmation if a target or scope is ambiguous or
+the proposed installation could create a conflict. For an aggregate request,
+present the target and scope of every included item before making changes.
 
 ## After-Action Review
 
