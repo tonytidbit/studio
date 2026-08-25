@@ -24,14 +24,16 @@ Install or update the item, then verify the result.
 ## After-Action Review
 
 **Identifier:** `after-action-review`\
-**Version:** `0.9.6` (2026-08-15)\
+**Version:** `0.9.7` (2026-08-25)\
 **Type:** Agent skill\
 **Source:** [`skills/after-action-review/`](skills/after-action-review/)\
 **Description:** A Codex CLI-first skill that audits a `/goal` against current
 evidence before it is marked complete, then reviews what was requested, what
 actually happened, why any discrepancy occurred, and what, if anything, should
-be done differently next time. When installed as documented, the agent is
-instructed to invoke it before completing each `/goal` and whenever the user
+be done differently next time. When invoked for goal completion or at the
+user's request, its four-part review appears in the final response, while the
+framework may also be used internally. When installed as documented, the agent
+is instructed to invoke it before completing each `/goal` and whenever the user
 requests an after-action review, optionally scoped by the user.
 
 To install or update, tell your AI agent:

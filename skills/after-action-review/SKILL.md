@@ -6,7 +6,7 @@ description: Audit a /goal against current authoritative evidence before it is m
 license: BSD-3-Clause
 metadata:
   publisher: "BLUEM STUDIO <https://bluem.studio/>"
-  version: "0.9.6"
+  version: "0.9.7"
 ---
 
 # Studio After-Action Review
@@ -44,6 +44,11 @@ Review the work just completed. Scope the review to:
 2. The period or work identified by the user.
 3. Otherwise, the narrowest reasonable scope supported by the current context,
    stated explicitly.
+
+The framework can also be used internally. When the skill is invoked for goal
+completion or at the user's request, include the after-action review in the
+final response; internal use does not replace that visible review. Make the
+four answers clearly identifiable and support them with concise evidence.
 
 Answer these four questions:
 
