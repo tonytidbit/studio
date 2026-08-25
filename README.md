@@ -10,16 +10,16 @@ experiments.
 
 ## Agent instructions
 
-These general instructions apply to every skill in this repository. Also follow
-any additional agent instructions under the requested skill's section when
-present.
+These general instructions apply to every installable item in this repository.
+Also follow any additional agent instructions under the requested item's
+section when present.
 
-Before installing or updating a skill, explain its purpose, behavior, source
-material, dependencies, permissions, tools, network access, proposed scope,
-and material risks, as applicable. Report its declared license, or report that
-none was found. When updating, compare the installed skill with the requested
-source and report material differences and local modifications. Install or
-update the skill, then verify the result.
+Before installing or updating an item, explain its purpose, behavior, type,
+source material, dependencies, permissions, tools, network access, proposed
+scope, and material risks, as applicable. Report its declared license, or report
+that none was found. When updating, compare the installed item with the
+requested source and report material differences and local modifications.
+Install or update the item, then verify the result.
 
 ## After-Action Review
 
@@ -59,6 +59,41 @@ into focused questions and prioritized decisions.
 To install or update, tell your AI agent:
 
 > Install or update `startup-review` from `https://github.com/tonytidbit/studio`.
+
+## TL;DR
+
+**Identifier:** `tldr`\
+**Version:** `0.1.0` (2026-08-25)\
+**Type:** Agent instruction\
+**Source:** This README section\
+**Description:** Adds a concise concluding summary to long agent responses so
+the reader can understand the main conclusion, any material qualification, and
+the next action without carefully processing the complete response.
+
+To install or update, tell your AI agent:
+
+> Install or update the `tldr` instruction from
+> `https://github.com/tonytidbit/studio` as a user-wide instruction for this AI,
+> unless another scope is given. Add or update only the `## TL;DR` instruction,
+> preserve unrelated configuration, and verify that it persists.
+
+### Instruction
+
+```markdown
+## TL;DR
+
+For final responses of roughly 600 words or more, end with a `TL;DR` of no more
+than 50 words that lets the reader understand the answer without reading the
+full response. State the main conclusion, any qualification that materially
+changes it, and the next action when applicable. Do not introduce new
+information. Omit the section when the user requests another format.
+```
+
+### Installation and removal
+
+Use the persistent instruction mechanism appropriate to the AI and requested
+scope. To remove the instruction, remove only the installed `## TL;DR`
+instruction and preserve unrelated configuration.
 
 ## Licensing
 
