@@ -6,7 +6,7 @@ description: Review the foundations of a startup using Guy Kawasaki's ten-slide 
 license: BSD-3-Clause
 metadata:
   publisher: "BLUEM STUDIO <https://bluem.studio/>"
-  version: "0.11.0"
+  version: "0.11.1"
 ---
 
 # Startup Review
@@ -126,3 +126,6 @@ established answers.
 Ask focused questions where the user can resolve important gaps. Finish with a
 concise summary of the current position and the next decisions or validations
 that matter most. Keep the depth proportional to the user's request.
+
+When delivering review findings, finish with clearly identified `Conclusions`
+and `Next priorities`.

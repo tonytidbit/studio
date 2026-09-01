@@ -54,7 +54,7 @@ review.
 ## Startup Review
 
 **Identifier:** `startup-review`\
-**Version:** `0.11.0` (2026-08-15)\
+**Version:** `0.11.1` (2026-09-01)\
 **Type:** Agent skill\
 **Source:** [`skills/startup-review/`](skills/startup-review/)\
 **Description:** Reviews a startup's foundations using Guy Kawasaki's ten-slide
