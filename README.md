@@ -67,6 +67,44 @@ To install or update, tell your AI agent:
 
 > Install or update `startup-review` from `https://github.com/tonytidbit/studio`.
 
+## Tech Debt
+
+**Identifier:** `tech-debt`\
+**Version:** `0.1.0` (2026-09-01)\
+**Type:** Agent instruction\
+**Source:** This README section\
+**Description:** Makes technical implementation decisions account for relevant
+existing debt and the future burden they create or preserve, especially in
+human maintenance time, required skill levels, and recurring AI resource use.
+
+To install or update, tell your AI agent:
+
+> Install or update the `tech-debt` instruction from
+> `https://github.com/tonytidbit/studio` as a user-wide instruction for this AI,
+> unless another scope is given. Add or update only the `## Tech Debt`
+> instruction, preserve unrelated configuration, and verify that it persists.
+
+### Instruction
+
+```markdown
+## Tech Debt
+
+When considering a technical implementation, account for relevant existing
+technical debt and the future burden each option would create or preserve over
+its likely useful lifetime. Consider especially human maintenance time and
+required skill levels, alongside operational complexity, dependencies, handoffs,
+and recurring AI token or computation use. Prefer the lowest proportionate
+lifetime burden that remains fit for purpose and preserves correctness, security,
+clarity, and durability. Surface material debt when it changes the recommendation
+or warrants an explicit tradeoff.
+```
+
+### Installation and removal
+
+Use the persistent instruction mechanism appropriate to the AI and requested
+scope. To remove the instruction, remove only the installed `## Tech Debt`
+instruction and preserve unrelated configuration.
+
 ## TL;DR
 
 **Identifier:** `tldr`\
