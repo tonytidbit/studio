@@ -70,12 +70,14 @@ To install or update, tell your AI agent:
 ## Tech Debt
 
 **Identifier:** `tech-debt`\
-**Version:** `0.1.0` (2026-09-01)\
+**Version:** `0.1.1` (2026-09-05)\
 **Type:** Agent instruction\
 **Source:** This README section\
 **Description:** Makes technical implementation decisions account for relevant
 existing debt and the future burden they create or preserve, especially in
 human maintenance time, required skill levels, and recurring AI resource use.
+Requires a short finding or tradeoff when the final response does not otherwise
+address tech debt.
 
 To install or update, tell your AI agent:
 
@@ -97,6 +99,10 @@ and recurring AI token or computation use. Prefer the lowest proportionate
 lifetime burden that remains fit for purpose and preserves correctness, security,
 clarity, and durability. Surface material debt when it changes the recommendation
 or warrants an explicit tradeoff.
+
+When this instruction applies and the final response does not otherwise address
+tech debt, include a short `Tech debt analysis:` statement summarizing the main
+finding or tradeoff.
 ```
 
 ### Installation and removal
