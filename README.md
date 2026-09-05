@@ -70,12 +70,13 @@ To install or update, tell your AI agent:
 ## TL;DR
 
 **Identifier:** `tldr`\
-**Version:** `0.1.0` (2026-08-25)\
+**Version:** `0.1.1` (2026-09-05)\
 **Type:** Agent instruction\
 **Source:** This README section\
-**Description:** Adds a concise concluding summary to long agent responses so
-the reader can understand the main conclusion, any material qualification, and
-the next action without carefully processing the complete response.
+**Description:** Adds a concise concluding summary to long agent responses or
+extensive work so the reader can understand the main conclusion, any material
+qualification, and the next action without processing the full response or
+preceding output.
 
 To install or update, tell your AI agent:
 
@@ -89,11 +90,12 @@ To install or update, tell your AI agent:
 ```markdown
 ## TL;DR
 
-For final responses of roughly 600 words or more, end with a `TL;DR` of no more
+For final responses of roughly 600 words or more, or after extensive work with
+substantial terminal or other intermediate output, end with a `TL;DR` of no more
 than 50 words that lets the reader understand the answer without reading the
-full response. State the main conclusion, any qualification that materially
-changes it, and the next action when applicable. Do not introduce new
-information. Omit the section when the user requests another format.
+full response or preceding output. State the main conclusion, any qualification
+that materially changes it, and the next action when applicable. Do not
+introduce new information. Omit the section when the user requests another format.
 ```
 
 ### Installation and removal
